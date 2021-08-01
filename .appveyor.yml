@@ -7,7 +7,7 @@ environment:
 platform:
   - x64
 cache:
-  - '%USERPROFILE%\.julia\artifacts'
+  - '%USERPROFILE%\.julia\packages'
 matrix:
   allow_failures:
     - julia_version: nightly
